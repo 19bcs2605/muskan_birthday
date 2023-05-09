@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krishan5friends</title>
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    
+</head>
+<body >
+     <navbar>
+      <a href="#" class="logo">Krishna</a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#"
+              >Our Team <i class="fas fa-angle-down"></i
+            ></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">Shivani</a></li>
+              <li class="sub-item"><a href="#">Aditya Negi</a></li>
+              <li class="sub-item"><a href="#">Ankur Roy</a></li>
+              <li class="sub-item"><a href="#">Shayanti Roy</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#"
+              >Friends <i class="fas fa-angle-down"></i
+            ></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">Jasjeet</a></li>
+              <li class="sub-item"><a href="#">Monika</a></li>
+              <li class="sub-item"><a href="#">Muskan</a></li>
+              <li class="sub-item"><a href="#">Dilip</a></li>
+              <li class="sub-item"><a href="#">Rahul</a></li>
+              <li class="sub-item more">
+                <a class="more-btn" href="#"
+                  >More Friend <i class="fas fa-angle-right"></i
+                ></a>
+                <ul class="more-menu">
+                  <li class="more-item"><a href="#">Abhishek</a></li>
+                  <li class="more-item"><a href="#">Sajal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#">Gallery</a></li>
+          <li class="menu-item"><a href="#">About</a></li>
+          <li class="menu-item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </navbar>
+    
+    <header class="hero">
+        <div class="container">
+            <div class="welcome">
+                <span>welcome to</span>
+                <img src="" alt="">
+            </div>
+            <h1>The World Best <span>Friends</span></h1>
+            <p style="color: azure;">The most beautiful discovery true friends make is that they can grow separately without growing apart.<span id="dots">...</span>
+                <span id="more">Friendship is the hardest thing in the world to explain. 
+                    It’s not something you learn in school. But if you haven’t learned the meaning
+                 of friendship, you really haven’t learned anything.
+                    
+                    </span>
+            </p>
+                <div>
+                    <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read more</button>
+                    <button class="btn btn-secondary">Known more</button>
+                </div>    
+            </div>
+        </div>    
+    </header>
+    <section class="about-my-friend " id="gallery">
+        <div class="container">
+          <h3 class="section-heading"> My best Friends</h3>
+            <div class="slideshow-container" style="background-color:black">
+
+               <!-- Full-width images with number and caption text -->
+               <div class="mySlides fade">
+                 <div class="numbertext">1 / 13</div>
+                 <img src="./images/aditya-saja-krishna.jpg" style="width:100%" height="65%">
+                 <div class="text">Aditya , Sajal And Krishna</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">2/ 13</div>
+                 <img src="./images/shyanti-arsh.jpeg" style="width:100%" height="65%">
+                 <div class="text">Shayanti & Arsh</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">3 / 13</div>
+                 <img src="./images/dilip-raj.jpg" style="width:75%" height="65%">
+                 <div class="text">Dilip Raj</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">4 / 13</div>
+                 <img src="./images/rahul.jpg" style="width:100%" height="65%">
+                 <div class="text">Rahul gupta</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">5 / 13</div>
+                 <img src="./images/sunil.jpg" style="width:100%" height="65%">
+                 <div class="text">Sunil Kumar</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">6 / 13</div>
+                 <img src="./images/arsh.jpg" style="width:100%" height="65%">
+                 <div class="text">Arsh</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">7 / 13</div>
+                 <img src="./images/poonam-1.jpg" style="width:100%" height="65%">
+                 <div class="text">Ponnam </div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">8 / 13</div>
+                 <img src="./images/shyanti-arsh.jpeg" style="width:100%" height="65%">
+                 <div class="text">Shayanti & Arsh</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">9 / 13</div>
+                 <img src="./images/aditya-saja-krishna.jpg" style="width:100%" height="65%">
+                 <div class="text">Aditya , Sajal And Krishna</div>
+             </div>
+              <div class="mySlides fade">
+                 <div class="numbertext">10 / 13</div>
+                 <img src="./images/adiya-kota.jpeg" style="width:100%" height="65%">
+                 <div class="text">Aditya and Ankur</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">11 / 13</div>
+                 <img src="./images/group-vanaraas-3.jpg" style="width:100%" height="65%">
+                 <div class="text">Ujjawal, Ankur and Krishna</div>
+             </div>
+              <div class="mySlides fade">
+                 <div class="numbertext">12 / 13</div>
+                 <img src="./images/group-vanaras.jpg" style="width:100%" height="65%">
+                 <div class="text">Ujjawal, Ankur and Mohit</div>
+             </div>
+             <div class="mySlides fade">
+                 <div class="numbertext">13 / 13</div>
+                 <img src="./images/abhisheck.jpg" style="width:100%" height="65%">
+                 <div class="text">Abhishek</div>
+             </div>
+             
+
+             <!-- Next and previous buttons -->
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <br>
+               <!-- The dots/circles -->
+               <div style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span>
+                 <span class="dot" onclick="currentSlide(2)"></span>
+                 <span class="dot" onclick="currentSlide(3)"></span>
+                 <span class="dot" onclick="currentSlide(4)"></span>
+                 <span class="dot" onclick="currentSlide(5)"></span>
+                 <span class="dot" onclick="currentSlide(6)"></span>
+                 <span class="dot" onclick="currentSlide(7)"></span>
+                 <span class="dot" onclick="currentSlide(8)"></span>
+                 <span class="dot" onclick="currentSlide(9)"></span>
+                 <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span> 
+
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section class="about-me " id="about-us" >
+        <div class="container " id="kri">
+            <h3 class="section-heading"> About My love</h3>
+            <div class="about-me-wrap flex" >
+                <div class="flex-1">
+                <img class="flex" src="./images/love-quotes-for-my-sweetheart-2.jpg" alt="">
+                </div> 
+                <div class="flex-1 div-2">
+                    <h2>Starting from year 2017. 
+                      Every year our friendship deepens. Every year his heart seems to grow bigger.  Every year I love him more. </h2>
+                     <p>It’s not the usual love story. It wasn’t love at first sight. It wasn’t a whirlwind romance. It was a blossoming, slow and steady, and it gets more beautiful every year. <span id="dotss">...</span>
+                        <span id="mores">
+                           <a href="#kri" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio9()" type="button">1. Play Audio</a>
+                          <a href="#kri" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio9()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio9">
+                               <source src="./music/krishna-2.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var i = document.getElementById("myAudio9");
+                                 function playAudio9() {
+                                 i.play();
+                                 }
+                                 function pauseAudio9() {
+                                 i.pause();
+                                 }
+                                </script>
+                             </div></span></p>
+                    <button class="btn btn-secondary" onclick="mySecondFunction()" id="myBtns">Read more</button>
+
+                   <button class="btn btn-third"  style="margin-left: 10px;" onclick="playAudio()" type="button">Play Audio</button>
+                          <button class="btn btn-third" style="margin-left: 10px;" onclick="pauseAudio()" type="button">Pause Audio</button>
+                           <div>
+                             <audio id="myAudio">
+                              <source src="./music/chal chale kahi ham.mp3" type="audio/mp3" />
+                             </audio>
+                           <script>
+                              var x = document.getElementById("myAudio");
+                              function playAudio() {
+                              x.play();
+                               }
+                              function pauseAudio() {
+                              x.pause();
+                              }
+                             </script>
+                </div>      
+            </div>
+        </div>
+    </section>
+    <section class="about-me " id="about-us" >
+      <div class="container " id="kri">
+          <h3 class="section-heading"> About my Friend</h3>
+          <div class="about-me-wrap flex" >
+              <div class="flex-1">
+              <img class="flex" src="./images/shivani_shayanti.jpg" alt="">
+              </div> 
+              <div class="flex-1 div-2">
+                  <h2> They are important in my life because it teaches us a great deal about life.</h2><p> I learn so many lessons from friendship which we won’t find anywhere else. I learn to love someone other than your family. I know how to be yourself in front of friends.
+                    They never leaves us in bad times. I learn how to understand people and trust others. They will always motivate me and cheer for me. They will take me on the right path and save me from any evil. </p>
+                   <p>
+                    <span id="dotss"></span>
+                      <span id="mores">
+                         <a href="#kri" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio9()" type="button">1. Play Audio</a>
+                        <a href="#kri" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio9()" type="button">Pause Audio</a>                         
+              </div>   
+              <div class="flex-1">
+                <img class="flex" src="./images/monika_jj.jpg" alt="">
+                </div> 
+                <div class="flex-1 div-2">
+                    <h2> They also teaches me a lot about loyalty. It helps us to become loyal and get loyalty in return.</h2><p> There is no greater feeling in the world than having a friend who is loyal to me.
+                      Moreover, friendship makes us stronger. It tests us and helps us grow. For instance, we see how we fight with our friends yet come back together after setting aside our differences. This is what makes us strong and teaches us patience.</p>
+                     <p> <span id="dotss"></span>
+                        <span id="mores">
+                           <a href="#kri" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio9()" type="button">1. Play Audio</a>
+                          <a href="#kri" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio9()" type="button">Pause Audio</a>                         
+                </div>     
+          </div>
+          
+      </div>
+  </section>
+    <section class="our-team" id="our-team">
+         <h3 class="section-heading"> Our Team</h3> <br>
+     <div class="body-our-team">
+      <div class="container-our-team">
+        <div class="cards">
+          <div class="imgbx">
+            <img src="./images/shivani_png.jpg" />
+          </div>
+          <div class="content">
+            <div class="details">
+              <h2>Shivani Patial<br /><span>Bio-Technology</span></h2>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=100017940513747"><img src="./icons/facebook-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/_shivanipatial_/"><img src="./icons/instagram-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a><img src="./icons/telegram-plane-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/shivani-patial-a21b8b230"><img src="./icons/linkedin-brands.svg" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="imgbx" id="ankur-2">
+            <img src="./images/ankur-card.jpeg" />
+          </div>
+          <div class="content">
+            <div class="details" >
+              <h2>Ankur <br /><span>
+                        <a href="#shayanti-1" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio10()" type="button">1. Play</a>
+                        <a href="#ankur-2" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio10()" type="button">Pause </a>
+                           <div>
+                             <audio id="myAudio10">
+                               <source src="./music/ankur-1.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var j = document.getElementById("myAudio10");
+                                 function playAudio10() {
+                                 j.play();
+                                 }
+                                 function pauseAudio10() {
+                                 j.pause();
+                                 }
+                                </script>
+                             </div>
+              </span></h2>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.facebook.com/ankur.vikas.50"><img src="./icons/facebook-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/av.spideeeee/"><img src="./icons/instagram-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a><img src="./icons/telegram-plane-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ankur-vikas-22a8451b8/"><img src="./icons/linkedin-brands.svg" /></a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="imgbx" id="shayanti-1">
+            <img src="./images/shayanti-card-1.jpeg" />
+          </div>
+          <div class="content">
+            <div class="details">
+              <h2>Shayanti<br /><span>
+                 <a href="#ankur-2" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio12()" type="button">1. Play</a>
+                        <a href="#shayanti-1" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio12()" type="button">Pause </a>
+                           <div>
+                             <audio id="myAudio12">
+                               <source src="./music/shayanti-1.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var l = document.getElementById("myAudio12");
+                                 function playAudio12() {
+                                 l.play();
+                                 }
+                                 function pauseAudio12() {
+                                 l.pause();
+                                 }
+                                </script>
+                             </div>
+              </span></h2>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.facebook.com/shaynti.roy"><img src="./icons/facebook-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/_shayanti_/"><img src="./icons/instagram-square-brands.svg" /></a>
+                </li>
+                <li>
+                  <a><img src="./icons/telegram-plane-brands.svg" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/shayanti-roy-9a8435197/"><img src="./icons/linkedin-brands.svg" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    </section>
+    <section class="blog">
+     <div class="container ">
+      
+         <h3 class="section-heading">Some friend from instagram</h3>
+         <br>
+         <div class="row">
+          <div id="aditya-2"></div>
+          <div class="column" id="aditya" >
+            <div class="card" id="aditya-6">
+               <img class="card-image" src="./images/jaspeet_pic.jpg
+               " alt="Mike" style="width:100%">
+               <div class="card-container" >
+                   <h2>Jasjeet Narang </h2>
+                    <p class="title">Bio-Technology</p>
+                     <div class="link" style="display: flex;">
+                       <a href="https://www.instagram.com/its_o.k._.j.j_/">
+                   <p><button class="button">Follow us on Instagram</button></p></a>
+
+                     <a href="">
+                   <p><button class="button">Follow us on facebook</button></p></a>
+
+                  <a href="https://www.linkedin.com/in/jasjeet-narang-905980194/">  
+                   <p><button class="button">Follow us on linkedin</button></p></a></div>
+                  </div>
+               </div>
+          </div>    
+          <div class="column" id="poonam-1">
+            <div class="card ">
+               <img class="card-image" src="./images/muskan.png" alt="Mike" style="width:100%">
+               <div class="card-container">
+                   <h2>Muskan</h2>
+                    <p class="title">Teaching</p>
+                    <p> Teachers are the gifts of god who make our career and guide us towards success.<p>
+                    <p></p>
+                     <div class="link" style="display: flex;">
+                       <a href="https://www.instagram.com/muski.i010/">
+                   <p><button class="button">Follow us on Instagram</button></p></a>
+
+                     <a href="">
+                   <p><button class="button">Follow us on facebook</button></p></a>
+
+                  <a href="">  
+                   <p><button class="button">Follow us on linkedin</button></p></a></div>
+                  </div>
+               </div>
+          </div>    
+       
+          <div class="column" id="arsh-1">
+            <div class="card ">
+               <img class="card-image" src="./images/monika_pic.png" alt="Mike" style="width:100%">
+               <div class="card-container">
+                   <h2>Monika Shekhar</h2>
+                    <p class="title">Bio-Technology </p>
+                     <div class="link" style="display: flex;">
+                       <a href="https://www.instagram.com/monikkashekhar/">
+                   <p><button class="button">Follow us on Instagram</button></p></a>
+
+                     <a href="https://www.facebook.com/monika.shekhar.3551">
+                   <p><button class="button">Follow us on facebook</button></p></a>
+
+                  <a href="">  
+                   <p><button class="button">Follow us on linkedin</button></p></a></div>
+                  </div>
+               </div>
+          </div>                
+     </div>
+         <div class="row">
+                <div id="aditya-2"></div>
+                <div class="column" id="aditya" >
+                  <div class="card" id="aditya-6">
+                     <img class="card-image" src="./images/adiya-card.jpeg" alt="Mike" style="width:100%">
+                     <div class="card-container" >
+                         <h2>Aditya </h2>
+                          <p class="title">Software Engineer</p>
+                          <a href="#arsh-1" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio1()" type="button">1. Play Audio</a>
+                          <a href="#aditya" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio1()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio1">
+                               <source src="./music/sari galiya mai jag maga.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var y = document.getElementById("myAudio1");
+                                 function playAudio1() {
+                                 y.play();
+                                 }
+                                 function pauseAudio1() {
+                                 y.pause();
+                                 }
+                                </script>
+                             </div>
+                          <a href="#arsh-1" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio2()" type="button">2. Play Audio</a>
+                          <a href="#aditya" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio2()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio2">
+                               <source src="./music/aditya-2.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var z = document.getElementById("myAudio2");
+                                 function playAudio2() {
+                                 z.play();
+                                 }
+                                 function pauseAudio2() {
+                                 z.pause();
+                                 }
+                                </script>
+                             </div>
+                          <a href="#poonam-1" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio3()" type="button">3. Play Audio</a>
+                          <a href="#aditya" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio3()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio3">
+                               <source src="./music/jab dekha pahli baar pyar tere te ho gya re.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var c = document.getElementById("myAudio3");
+                                 function playAudio3() {
+                                 c.play();
+                                 }
+                                 function pauseAudio3() {
+                                 c.pause();
+                                 }
+                                </script>
+                             </div>
+                           <div class="link" style="display: flex;">
+                             <a href="https://www.instagram.com/poonamnegi3830/">
+                         <p><button class="button">Follow us on Instagram</button></p></a>
+
+                           <a href="https://www.facebook.com/profile.php?id=100013023256570">
+                         <p><button class="button">Follow us on facebook</button></p></a>
+
+                        <a href="">  
+                         <p><button class="button">Follow us on linkedin</button></p></a></div>
+                        </div>
+                     </div>
+                </div>    
+                <div class="column" id="poonam-1">
+                  <div class="card ">
+                     <img class="card-image" src="./images/poonam5.png" alt="Mike" style="width:100%">
+                     <div class="card-container">
+                         <h2>Poonam Negi</h2>
+                          <p class="title">Fashion Director</p>
+                          <p>Fashion is not necessarily about labels. <p>
+                          <a href="#aditya-2" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio4()" type="button">1. Play Audio</a>
+                          <a href="#poonam-1" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio4()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio4">
+                               <source src="./music/poonam-1.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var d = document.getElementById("myAudio4");
+                                 function playAudio4() {
+                                 d.play();
+                                 }
+                                 function pauseAudio4() {
+                                 d.pause();
+                                 }
+                                </script>
+                             </div>
+                          <a href="#aditya-2" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio5()" type="button">2. Play Audio</a>
+                          <a href="#poonam-1" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio5()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio5">
+                               <source src="./music/poonam-2.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var e = document.getElementById("myAudio5");
+                                 function playAudio5() {
+                                 e.play();
+                                 }
+                                 function pauseAudio5() {
+                                 e.pause();
+                                 }
+                                </script>
+                             </div>
+                          <p></p>
+                           <div class="link" style="display: flex;">
+                             <a href="https://www.instagram.com/poonamnegi3830/">
+                         <p><button class="button">Follow us on Instagram</button></p></a>
+
+                           <a href="https://www.facebook.com/profile.php?id=100013023256570">
+                         <p><button class="button">Follow us on facebook</button></p></a>
+
+                        <a href="">  
+                         <p><button class="button">Follow us on linkedin</button></p></a></div>
+                        </div>
+                     </div>
+                </div>    
+             
+                <div class="column" id="arsh-1">
+                  <div class="card ">
+                     <img class="card-image" src="./images/arsh-4.jpg" alt="Mike" style="width:100%">
+                     <div class="card-container">
+                         <h2>Arshdeep Kaur</h2>
+                          <p class="title">Bio-tech</p>
+                          <a href="#aditya-6" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio6()" type="button">1. Play Audio</a>
+                          <a href="#arsh-1" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio6()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio6">
+                               <source src="./music/kabhi kabhi filma dikha diya kar.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var f = document.getElementById("myAudio6");
+                                 function playAudio6() {
+                                 f.play();
+                                 }
+                                 function pauseAudio6() {
+                                 f.pause();
+                                 }
+                                </script>
+                             </div>
+                             <a href="#aditya-6" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio7()" type="button">2. Play Audio</a>
+                          <a href="#arsh-1" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio7()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio7">
+                               <source src="./music/arsh-2.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var g = document.getElementById("myAudio7");
+                                 function playAudio7() {
+                                 g.play();
+                                 }
+                                 function pauseAudio7() {
+                                 g.pause();
+                                 }
+                                </script>
+                             </div>
+                          
+                           <div class="link" style="display: flex;">
+                             <a href="https://www.instagram.com/__airborne_02_/">
+                         <p><button class="button">Follow us on Instagram</button></p></a>
+
+                           <a href="https://www.facebook.com/arshdeep.kaurstyles.7">
+                         <p><button class="button">Follow us on facebook</button></p></a>
+
+                        <a href="https://www.linkedin.com/in/arshdeep-kaur-9984a21a9/">  
+                         <p><button class="button">Follow us on linkedin</button></p></a></div>
+                        </div>
+                     </div>
+                </div>                
+           </div>
+        </div>
+        
+         
+          
+         
+    </section>
+    <section class="contact-us flex" id="contact-us">
+        <div class="contact-info-wrapper">
+            <h1 class="section-heading">Contact us</h1>
+            <div class="contact-info flex-1">
+                <div>
+                    <div>
+                        <img src="./icons/phone-2.svg"  alt="">
+                        <div>
+                            <span>Call us:</span>
+                            <span>(+91) 737 4818 239</span>
+                        </div>    
+                    </div>
+                    <div>
+                        <img src="./icons/email.svg" alt="">
+                        <div>
+                            <span>E-mail:</span>
+                            <span>krishna16115274@gmail.com</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./icons/clock-2.svg" alt="">
+                        <div>
+                            <span>Working hours:</span>
+                            <span>Mon - fri (10:00am - 4:00pm) </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map flex-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28921.922672807308!2d83.5983235723852!3d25.02591671123557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398dd8eafbcc2b11%3A0x5ed7da0df44c2c63!2sSio%2C%20Bihar%20821101!5e0!3m2!1sen!2sin!4v1628575727267!5m2!1sen!2sin" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container" id="krishna-2">
+            <div class="box">
+                <h3>About us</h3>
+                <p> Nothing..... left to say . Everyone known</p>
+                <a href="#krishna-2" class=""  style="margin-left: 10px; text-decoration: none;" onclick="playAudio8()" type="button">1. Play Audio</a>
+                          <a href="#krishna-2" class="" style="margin-left: 10px; text-decoration: none;" onclick="pauseAudio8()" type="button">Pause Audio</a>
+                           <div>
+                             <audio id="myAudio8">
+                               <source src="./music/krishna-1.mp3" type="audio/mp3" />
+                             </audio>
+                               <script>
+                                 var h = document.getElementById("myAudio8");
+                                 function playAudio8() {
+                                 h.play();
+                                 }
+                                 function pauseAudio8() {
+                                 h.pause();
+                                 }
+                                </script>
+                             </div>
+                <button class="btn btn-secondary">Read more</button>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <ul>
+                    <li>
+                        <a href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#our-team">My Friends</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">about us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box"> 
+                <h3>Follow us</h3>
+                <div>
+                    <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100031703482441">
+                            <img src="./icons/facebook.svg" alt="">
+                            <span>facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/krishna4570kumar/">
+                            <img src="./icons/instagram.svg" alt="">
+                            <span>instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./icons/twitter.svg" alt="">
+                            <span>twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./icons/google.svg" alt="">
+                            <span>google</span>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div class="box instagram-api">
+                <h3>Instagram</h3>
+                <div class="post-wrap">
+                    <div>
+                        <img src="./images/ayush-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/palak-5-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/ankur-5-2.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/saja-5-2.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/krishna-5-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/ankur-5-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="copyright">
+        <div>
+            Cpoyright © 2021 .All rights reserved by <a href="">Krishna Kumar</a>
+        </div>
+
+    </footer>
+
+ <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="./js/read.js"></script>
+  <script type="text/javascript" src="./js/nav.js"></script>
+  <script type="text/javascript" src="./js/animation.js"></script>
+  <script type="text/javascript">
+    //jquery for toggle dropdown menus
+    $(document).ready(function(){
+      //toggle sub-menus
+      $(".sub-btn").click(function(){
+        $(this).next(".sub-menu").slideToggle();
+      });
+
+      //toggle more-menus
+      $(".more-btn").click(function(){
+        $(this).next(".more-menu").slideToggle();
+      });
+    });
+
+    //javascript for the responsive navigation menu
+    var menu = document.querySelector(".menu");
+    var menuBtn = document.querySelector(".menu-btn");
+    var closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add("active");
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove("active");
+    });
+
+    //javascript for the navigation bar effects on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+</body>
+
+</html>
